@@ -1,0 +1,13 @@
+.aside{
+    width: 25%;
+}
+
+.article{
+    width: 75%;
+}
+
+.contenedorMainHome{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
