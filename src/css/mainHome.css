@@ -11,3 +11,9 @@
     align-items: center;
     margin-top: 20px;
 }
+
+.langTables{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

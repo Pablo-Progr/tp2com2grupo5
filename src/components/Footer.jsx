@@ -3,7 +3,7 @@ import Mapa from './Mapa'
 
 const Footer = () => {
   return (
-    <div>
+    <div className='footer'>
         <h3>Facultad Regional de Tucuman - UTN</h3>
         <Mapa/>
     </div>
