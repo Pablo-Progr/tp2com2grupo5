@@ -1,10 +1,10 @@
 import React from 'react'
-import SobreNosotros from '../pages/SobreNosotros'
+import SobreNosotros from '../pages/SobreNosotros.jsx'
 
 const Nav = () => {
   return (
     <div>
-        <a to={<SobreNosotros/>}>Sobre Nosotros</a>
+        <a href="../pages/SobreNosotros.jsx">Sobre Nosotros</a>
         <a href="">FRT - UTN</a>
     </div>
   )

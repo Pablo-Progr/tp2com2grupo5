@@ -1,6 +1,6 @@
 import React from 'react'
 import Mapa from './Mapa'
-
+import '../css/Footer.css'
 const Footer = () => {
   return (
     <div className='footer'>

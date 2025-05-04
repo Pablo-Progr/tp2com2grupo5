@@ -7,7 +7,7 @@ import LangTables from './LangTables'
 const MainHome = ({lengProgramacion}) => {
   return (
 
-    <div>
+    <div className='mainHome'>
 <div className="contenedorMainHome">
       <div className="aside">
         <Aside/>
