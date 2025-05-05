@@ -2,5 +2,9 @@
     background-color: rgb(0, 0, 0);
     background-image: url("../assets/header.jpg");
     color: white;
-    
+}
+
+.headerContainer{
+    width: 100%;
+    padding: 40px 20px;
 }

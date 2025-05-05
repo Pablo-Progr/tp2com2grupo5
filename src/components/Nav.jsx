@@ -1,13 +1,16 @@
 import React from 'react'
-import SobreNosotros from '../pages/SobreNosotros.jsx'
+import { Link } from 'react-router-dom'
+import "../css/nav.css"
 
 const Nav = () => {
   return (
-    <div>
-        <a href="../pages/SobreNosotros.jsx">Sobre Nosotros</a>
+    <div className="nav">
+      <div className='navContainer'>
+        <Link to="/sobreNosotros">Sobre Nosotros</Link>
         <a href="">FRT - UTN</a>
+      </div> 
     </div>
-  )
+  );
 }
 
 export default Nav

@@ -3,8 +3,6 @@ import '../css/article.css'
 
 
 const Article = ({lengProgramacion}) => {
-     
-    
 
   return (
     <div className="contenedorArticle">

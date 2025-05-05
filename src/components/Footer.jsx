@@ -1,13 +1,16 @@
 import React from 'react'
 import Mapa from './Mapa'
 import '../css/Footer.css'
+
 const Footer = () => {
   return (
-    <div className='footer'>
+    <div>
+      <div className="footer">
         <h3>Facultad Regional de Tucuman - UTN</h3>
-        <Mapa/>
+        <Mapa />
+      </div>
     </div>
-  )
+  );
 }
 
 export default Footer
