@@ -4,23 +4,23 @@
     justify-content: center;
 }
 
-.card{
+.cardLeng{
     width: 300px;
     height: 300px;
     margin: 10px;
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-    
+    background-color: white;
 }
 
-.card:hover {
+.cardLeng:hover {
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
     transform: scale(1.05);
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
-img{
+.imgLeng{
     width: 300px;
     height: 150px;
     border-radius: 10px 10px 0 0;

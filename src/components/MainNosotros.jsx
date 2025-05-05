@@ -8,28 +8,28 @@ import "../css/mainNosotros.css";
 const MainNosotros = () => {
   return (
     <div className="contenedorArticle">
-      <div className="card">
-        <img src={giuliano} alt="" />
+      <div className="cardNosotros">
+        <img className="imgNosotros" src={giuliano} alt="" />
         <h6>
-          Mi nombre es Giuliano Calcagni terngo 19 anios, por el momento solo soy estudiante de la carrera de Tec. Universitaria en Programacion.
+          Mi nombre es Giuliano Calcagni terngo 19 años, por el momento solo soy estudiante de la carrera de Tec. Universitaria en Programacion.
         </h6>
       </div>
-          <div className="card">
-        <img src={pablo} alt="" />
+          <div className="cardNosotros">
+        <img className="imgNosotros" src={pablo} alt="" />
         <h6>
-          Mi nombre es Pablo tengo 25 anios y soy estudiante de la carrera de Tec. Universitaria en Programacion y aparte trabajo en un gimnasio.
+          Mi nombre es Pablo tengo 25 años y soy estudiante de la carrera de Tec. Universitaria en Programacion y aparte trabajo en un gimnasio.
         </h6>
       </div>
-          <div className="card">
-        <img src={jeremias} alt="" />
+          <div className="cardNosotros">
+        <img className="imgNosotros" src={jeremias} alt="" />
         <h6>
-            Mi nombre es Jeremias Alvarez tengo 23 anios y soy estudiante de la carrera de Tec. Universitaria en Programacion y trabajo en un Instituto Terciario.
+            Mi nombre es Jeremias Alvarez tengo 23 años y soy estudiante de la carrera de Tec. Universitaria en Programacion y trabajo en un Instituto Terciario.
         </h6>
       </div>
-          <div className="card">
-        <img src={matias} alt="" />
+          <div className="cardNosotros">
+        <img className="imgNosotros" src={matias} alt="" />
         <h6>
-            Mi nombre es MatiasRoldan tengo 23 y soy estudiante de la carrera de Tec. Universitaria en Programacion, Me gustan mucho los videos juegos y la tecnologia.y aparte trabajo con mi familia siendo ferianrtes.
+            Mi nombre es MatiasRoldan tengo años y soy estudiante de la carrera de Tec. Universitaria en Programacion, Me gustan mucho los videos juegos y la tecnologia.y aparte trabajo con mi familia siendo ferianrtes.
         </h6>
       </div>
     </div>

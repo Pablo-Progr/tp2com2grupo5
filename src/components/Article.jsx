@@ -9,8 +9,8 @@ const Article = ({lengProgramacion}) => {
         {lengProgramacion.map((lenguaje,index) =>  {
             const {nombre, imagen, descripcion} = lenguaje;
             return (
-                <div className="card" key={index}>
-                    <img src={imagen} alt={nombre} />
+                <div className="cardLeng" key={index}>
+                    <img className='imgLeng' src={imagen} alt={nombre} />
                     <div>
                         <h2>{nombre}</h2>
                         <p>{descripcion}</p>
